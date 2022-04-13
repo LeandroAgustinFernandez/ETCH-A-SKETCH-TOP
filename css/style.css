@@ -1,9 +1,18 @@
+.body{
+    background-color: darkgray;
+    color: white;
+}
+.header{
+    display: flex;
+    justify-content: center;
+}
 .panel {
   display: flex;
   justify-content: center;
-  gap: 10%;
+  gap: 5%;
 }
 .grid_container {
+    background-color: #fff;
   display: grid;
   width: 600px;
   height: 600px;
@@ -11,4 +20,12 @@
 .square {
   border: 1px solid;
   border-color: rgba(0, 0, 0, 1);
+}
+.commands{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.btn{
+    padding: 10px 16px;
 }
