@@ -1,0 +1,14 @@
+.panel {
+  display: flex;
+  justify-content: center;
+  gap: 10%;
+}
+.grid_container {
+  display: grid;
+  width: 600px;
+  height: 600px;
+}
+.square {
+  border: 1px solid;
+  border-color: rgba(0, 0, 0, 1);
+}
